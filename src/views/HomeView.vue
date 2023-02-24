@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import ThemeConverter from '@/components/ThemeConverter.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="container-fluid">
+    <ThemeConverter />
   </main>
 </template>
